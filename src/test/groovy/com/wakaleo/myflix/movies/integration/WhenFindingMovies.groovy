@@ -85,6 +85,7 @@ class WhenFindingMovies extends Specification {
             movies.isEmpty()
     }
 
+
     def movieCatalogContains(List<Movie> movies) {
         movieRepository.save(movies)
     }
